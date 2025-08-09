@@ -53,7 +53,7 @@ vehicle-image-classification/
 ├── confusion_matrix.png         # Model evaluation output
 ├── requirements.txt
 └── README.md
-
+```
 Model Performance
 Accuracy: 99.85%
 
@@ -98,7 +98,7 @@ Device: CUDA-enabled GPU (GTX 1050 Ti)
 
 Training script: vehicle_classifier.py
 
-
+![Image Alt]([image_url](https://github.com/khotteaditya16/vehicle-image-classification/blob/4dcc069ed63b1eb52f232a5781ee139a70a1eb8c/confusion_matrix.png))
 
 
 🌐 Interactive Streamlit App
@@ -141,3 +141,17 @@ Collect statistical data on types of vehicles in specific areas.
 
 🛡️ Law Enforcement & Surveillance
 Cross-check vehicle types with database entries or stolen vehicle lists.
+
+Credits
+Dataset: Matthew Lim - Kaggle
+
+Pretrained Model: ResNet18 via TorchVision
+
+Frameworks: PyTorch, Streamlit
+
+🤝 License
+This project is open-source and available under the MIT License.
+
+📬 Contact
+Built with ❤️ by ADITYA KHOTTE
+
