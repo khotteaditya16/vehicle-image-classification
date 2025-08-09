@@ -1,0 +1,16 @@
+# Ignore data folder contents but keep the folder
+data/*
+
+# But don't ignore the folder itself
+!data/.gitkeep
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore any other unwanted files (optional)
+*.pkl
+*.h5
