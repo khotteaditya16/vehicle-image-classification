@@ -60,7 +60,11 @@ Accuracy: 99.85%
 F1-Score: 0.99+ across all classes
 
 Misclassifications: < 1.5% total (minor overlap between car and van images)
-confusion_matrix.png
+## 📊 Confusion Matrix
+
+Confusion matrix showing the model performance on the test dataset:
+
+![Confusion Matrix](confusion_matrix.png)
 
 
 📦 Dependencies
@@ -113,8 +117,11 @@ The project includes a powerful and clean Streamlit app that lets you test the m
 
 💻 Runs locally with a single command: streamlit run streamlit_app.py
 
-💡 Screenshot
-Streamlit_app.png
+## 📸 Streamlit App Interface
+
+Here’s a look at the Streamlit web app used for image classification:
+
+![Streamlit App](Streamlit_app.png)
 
 
 💡 Real-World Use Cases
